@@ -1,0 +1,16 @@
+作業名稱	Air mouse
+相關單元	不分單元/全部學生
+簡述	Dear all,
+
+In this homework, your goal is to implement an air mouse interface. You can set up a webcam or a kinect to capture and track your hand-made button, which reveals a red circle when mouse-up and a blue circle when mouse-down. Once the event is detected, you can apply the event to drag an image or launch a software. 
+
+TA will show you and explain his example codes at this Wednesday morning. We also can discuss if you have problems on making the button, thanks.
+
+Good luck,
+YuShuen
+
+附檔	
+繳交開始日	2015/11/23 00:00:00~2015/12/07 23:59:59 逾期仍然可以進行活動，期限到： 2015/12/14 23:59:59
+繳交方式	可繳多次 (批閱以最後一次為主)
+繳交型態	個人繳交作業:可繳多次 (批閱以最後一次為主)
+實施互評	否

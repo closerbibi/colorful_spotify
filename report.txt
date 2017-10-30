@@ -1,0 +1,14 @@
+HCI hw4  Air Mouse
+A041619 陳守中
+
+這次作業的實現主要有做兩個部分，第一個是cursor的移動功能，第二個是按鈕的function：
+
+1. cursor
+	用opencv的function: color mask配合 meanshift去完成tracking的動作，在colormask那邊我們會作出數個（每種顏色一個）特定顏色的feature histogram，接著再把這些得到的feature丟給mean shift去運算，這樣就可以camera每次update frame的時候抓到想要的顏色的位置，以達到cursor的功能。
+
+2. function
+	這邊我寫了一些判斷式，運用finite state的概念讓控制模式在數個state之間切換。紅色單純做cursor移動。而如果快速點一下藍色，會讓音樂播放，再點一次則會暫停。如果長按藍色的話，會讓音樂變大聲，長按但是不要按太久的話，可以調降音量。最後長按綠色的按鈕的話可以進入點歌模式，在terminal裡面輸入想聽的音樂就可以點播該歌曲。
+
+reference:
+spotify music player 
+& open source controler code ( https://harishnarayanan.org/projects/shpotify/ ) 
